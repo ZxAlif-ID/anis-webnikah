@@ -38,7 +38,7 @@
     </style>
     <section id="home">
         <!-- home -->
-        <div class="row justify-content-center" style="height: 657px;">
+        <div class="row justify-content-center" style="height: 750px;">
             <div class="col-lg-4 col-md-6">
                 <div class="text-center bg-img1" id="slidehome">
                     <div class="py-5" data-aos="zoom-in-up">
@@ -48,8 +48,12 @@
                         <h1 class="font2">Anis</h1>
                         <h3 class="mt-5 font">Sabtu, 20 April 2023</h3>
                     </div>
-
-                    <a href="#mempelai" class="btn btn-primary mt-2" id="scroll" data-aos="zoom-in"
+                    <div class="text-center" data-aos="fade-up">
+                        <p class="mb-0">kepada</p>
+                        <b class="mb-0">Ria dan Alif</b>
+                        <p class="mb-0">di Pangandaran</p>
+                    </div>
+                    <a href="#mempelai" class="btn btn-primary mt-3" id="scroll" data-aos="zoom-in" 
                         onclick="scroll();">Buka Undangan</a>
                     <!-- <script>
                         function scroll() {
@@ -70,8 +74,8 @@
                     jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan diantaramu
                     rasa kasih dan sayang. Sungguh, pada yang demikian itu benar-benar terdapat tanda-tanda (kebesaran
                     Allah) bagi kaum yang berpikir." (QS. Ar Rum:21). Dengan Rahmat Allah yang Maha Kuasa InsyaAllah
-                    kami akan melangsungkan pernikahan :
-                    <h5 class="mb-0 text-muted my-3" id="demo"></h5>
+                    kami akan melangsungkan pernikahan pada:
+                    <h5 class="mb-3 my-3 fw-bold" id="demo"></h5>
                     <b class="font3">
                         Masjid Islamic center
                         <br>
@@ -270,7 +274,7 @@
                     <p>
                         Anda dapat menuju lokasi acara kami dengan bantuan peta dibawah ini. Atau anda bisa buka di
                     </p>
-                    <a href="https://goo.gl/maps/8dK3eiE3sbfo318y9" class="btn btn-primary">Buka di Google Maps</a>
+                    <a href="https://goo.gl/maps/cUGANN7bxt6JrCh5A" class="btn btn-primary">Buka di Google Maps</a>
                     <div class="card card-hover mt-5">
                         <div class="mapouter" data-aos="fade-up">
                             <div class="gmap_canvas"><iframe class="gmap_iframe p-3" width="100%" frameborder="0"
@@ -294,28 +298,22 @@
                     <p>Moment kebahagian yang kami kenang selalu.</p>
                     <div>
                         <div class="content mb-2" data-aos="fade-up">
-                            <img src="image/couple.jpg" class="foto mx-auto d-block border"
-                                alt="foto pasangan" width="400">
+                            <img src="image/couple.jpg" class="foto mx-auto d-block border" alt="foto pasangan">
                         </div>
                         <div class="content mb-2" data-aos="fade-up">
-                            <img src="image/couple.jpg" class="foto mx-auto d-block border"
-                                alt="foto pasangan" width="400">
+                            <img src="image/couple.jpg" class="foto mx-auto d-block border" alt="foto pasangan">
                         </div>
                         <div class="content mb-2" data-aos="fade-up">
-                            <img src="image/couple.jpg" class="foto mx-auto d-block border"
-                                alt="foto pasangan" width="400">
+                            <img src="image/couple.jpg" class="foto mx-auto d-block border" alt="foto pasangan">
                         </div>
                         <div class="content mb-2" data-aos="fade-up">
-                            <img src="image/couple.jpg" class="foto mx-auto d-block border"
-                                alt="foto pasangan" width="400">
+                            <img src="image/couple.jpg" class="foto mx-auto d-block border" alt="foto pasangan">
                         </div>
                         <div class="content mb-2" data-aos="fade-up">
-                            <img src="image/couple.jpg" class="foto mx-auto d-block border"
-                                alt="foto pasangan" width="400">
+                            <img src="image/couple.jpg" class="foto mx-auto d-block border" alt="foto pasangan">
                         </div>
                         <div class="content" data-aos="fade-up">
-                            <img src="image/couple.jpg" class="foto mx-auto d-block border" alt="foto pasangan"
-                                width="400">
+                            <img src="image/couple.jpg" class="foto mx-auto d-block border" alt="foto pasangan">
                         </div>
                     </div>
                 </div>
@@ -331,7 +329,7 @@
                     <p>Sudilah sejenak melihat kebahagiaan kami melalui video dibawah ini</p>
                     <div class="p-3 text-center card-undangan mt-4" data-aos="fade-up">
                         <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item w-100" style=" height: 400px;"
+                            <iframe class="embed-responsive-item w-100" style=" height: 300px;"
                                 src="https://www.youtube.com/embed/z35MvWUzd28" allowfullscreen></iframe>
                         </div>
                     </div>
@@ -364,11 +362,11 @@
                                 Nomor Rekening
                                 <br>
                                 <b>
-                                    Atas nama Indah :
-                                    <span id="copy">1172690000</span>
+                                    <input type="text" value="Atas nama Indah : 1172690000" id="copy01" hidden>
+                                    Atas nama Indah : 1172690000
                                 </b>
                             </p>
-                            <button class="btn btn-primary" onclick="copy()">
+                            <button class="btn btn-primary" onclick="copy1()">
                                 <i class="fa-solid fa-copy"></i> Copy Rekening
                             </button>
                         </div>
@@ -385,11 +383,11 @@
                                 Nomor Rekening
                                 <br>
                                 <b>
-                                    Atas nama Indah :
-                                    <span class="copy">11372690000</span>
+                                    <input type="text" value="Atas nama Indah : 11372690000" id="copy02" hidden>
+                                    Atas nama Indah : 11372690000
                                 </b>
                             </p>
-                            <button class="btn btn-primary" onclick="myFunction()">
+                            <button class="btn btn-primary" onclick="copy2()">
                                 <i class="fa-solid fa-copy"></i> Copy Rekening
                             </button>
                         </div>
@@ -539,14 +537,15 @@
         <i class="fa-solid fa-volume-high"></i>
     </div>
     <style>
-        .musik{
+        .musik {
             position: fixed;
             bottom: 100px;
             right: 30px;
             padding: 15px;
             background-color: #9336B4;
         }
-        .musik i{
+
+        .musik i {
             color: white;
         }
     </style>
@@ -609,12 +608,16 @@
         AOS.init();
     </script>
 
+    <script src="script.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
         integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous">
     </script>
-</body>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</body>
 </html>
